@@ -73,3 +73,29 @@ button:active {
     transform: translateY(2px);
 }
 
+/* Paragraph styles */
+p {
+    max-width: 720px;
+    margin: 0.6rem auto 1rem;
+    padding: 10px 16px;
+    background: rgba(255,255,255,0.85);
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+p.lead {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+p:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+}
+

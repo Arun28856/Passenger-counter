@@ -11,6 +11,14 @@ function increment() {
     console.log(count);
 }
 
+let savePL = document.getElementById("savePL");
+
+console.log(savePL);
+
 function save() {
     console.log("Passengers entered " + count);
-}
+    let countStr = count + " - ";
+    savePL.innerText += countStr;
+    countPL.innerText = 0;
+    count = 0;
+} 
