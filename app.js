@@ -10,3 +10,7 @@ function increment() {
     countPL.innerText = count;
     console.log(count);
 }
+
+function save() {
+    console.log("Passengers entered " + count);
+}
